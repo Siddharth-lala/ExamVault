@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Fulllayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#574699"
+
+    tools:context=".ExamSplashScreen">
+
+
+    <!--<ImageView
+        android:id="@+id/iv_book"
+        android:layout_width="296dp"
+        android:layout_height="304dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/books_and_people_svgrepo_com" />
+        -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/cabin"
+        android:text="Exam"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:translationX="70dp"
+        android:translationY="-100dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin"
+        android:text="Vault"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:translationX="200dp"
+        android:translationY="-100dp" />
+
+    <RelativeLayout
+        android:id="@+id/ballgroup"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:rotation="20"
+        android:translationY="428dp">
+
+
+        <ImageView
+            android:id="@+id/iv_semi"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/bdd8f15dbda753770ed5c28da91efb1d" />
+
+        <ImageView
+            android:id="@+id/iv_smallball"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/smallcirc"
+            android:translationY="20dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_bigball"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@drawable/bigball"
+        android:translationX="-40dp"
+        android:translationY="650dp" />
+
+
+</RelativeLayout>

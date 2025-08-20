@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Exam Vault"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.View_1"
+        tools:targetApi="31">
+        <activity
+            android:name=".ExamSplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.exam_splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Module6_3"
+            android:exported="false" />
+        <activity
+            android:name=".Module5_3"
+            android:exported="false" />
+        <activity
+            android:name=".Module4_3"
+            android:exported="false" />
+        <activity
+            android:name=".Module3_3"
+            android:exported="false" />
+        <activity
+            android:name=".Module2_3"
+            android:exported="false" />
+        <activity
+            android:name=".Module1_3"
+            android:exported="false" />
+        <activity
+            android:name=".Page3"
+            android:exported="false" />
+        <activity
+            android:name=".Module6_2"
+            android:exported="false" />
+        <activity
+            android:name=".Module5_2"
+            android:exported="false" />
+        <activity
+            android:name=".Module4_2"
+            android:exported="false" />
+        <activity
+            android:name=".Module3_2"
+            android:exported="false" />
+        <activity
+            android:name=".Module2_2"
+            android:exported="false" />
+        <activity
+            android:name=".Page2"
+            android:exported="false" />
+        <activity
+            android:name=".Module1_1"
+            android:exported="false" />
+        <activity
+            android:name=".Test"
+            android:exported="false" />
+        <activity
+            android:name=".Module6"
+            android:exported="false"
+            android:theme="@style/Theme.View_1.NoActionBar" /> <!--  -->
+        <activity
+            android:name=".Module5"
+            android:exported="false"
+            android:theme="@style/Theme.View_1.NoActionBar" />
+        <activity
+            android:name=".Module4"
+            android:exported="false"
+            android:theme="@style/Theme.View_1.NoActionBar" />
+        <activity
+            android:name=".Module3"
+            android:exported="false"
+            android:theme="@style/Theme.View_1.NoActionBar" />
+        <activity
+            android:name=".Module2"
+            android:exported="false"
+            android:label="@string/title_activity_module2"
+            android:theme="@style/Theme.View_1.NoActionBar" />
+        <activity
+            android:name=".Module1"
+            android:exported="false"
+            android:theme="@style/Theme.View_1.NoActionBar" />
+        <activity
+            android:name=".Page1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
